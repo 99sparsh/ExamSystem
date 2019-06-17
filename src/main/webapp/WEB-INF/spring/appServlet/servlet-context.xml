@@ -40,10 +40,10 @@
 		<beans:property name="dataSource" ref="dataSource" />
 		<beans:property name="annotatedClasses">
 			<beans:list>
-				<beans:value>com.journaldev.spring.model.Question</beans:value>
-				<beans:value>com.journaldev.spring.model.User</beans:value>
-				<beans:value>com.journaldev.spring.model.Submission</beans:value>
-				<beans:value>com.journaldev.spring.model.Result</beans:value>
+				<beans:value>com.examsystem.model.Question</beans:value>
+				<beans:value>com.examsystem.model.User</beans:value>
+				<beans:value>com.examsystem.model.Submission</beans:value>
+				<beans:value>com.examsystem.model.Result</beans:value>
 			</beans:list>
 		</beans:property>
 		<beans:property name="hibernateProperties">
